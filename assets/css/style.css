@@ -1,0 +1,117 @@
+/* =========================
+   GENERAL STYLES
+========================= */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* =========================
+   CARDS
+========================= */
+.card {
+    border-radius: 12px;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.btn {
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* =========================
+   TABLES
+========================= */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* =========================
+   FORM
+========================= */
+.form-control {
+    border-radius: 8px;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13,110,253,0.2);
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* =========================
+   BADGES
+========================= */
+.badge {
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+/* =========================
+   CUSTOM UTILITIES
+========================= */
+.shadow-soft {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.rounded-xl {
+    border-radius: 15px;
+}
+
+/* =========================
+   CART COUNT BADGE
+========================= */
+.cart-badge {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 8px;
+    font-size: 12px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 15px;
+    }
+}
